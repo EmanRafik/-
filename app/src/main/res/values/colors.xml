@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e4dcca</color>
+    <color name="colorPrimaryDark">#D9CBA0</color>
+    <color name="colorAccent">#DA8129</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="sand_very_dark">#c1b294</color>
+    <color name="sand_dark">#ebdbbb</color>
+    <color name="sand_light">#e4dcca</color>
+
+    <color name="turmeric_light">#eab55e</color>
+    <color name="turmeric_dark">#da8129</color>
+
+    <color name="mud_brown">#8a7c5b</color>
+    <color name="mud">#B26132</color>
+    <color name="mud_faded">#80B26132</color>
+
+    <color name="gradient1_c1">#dd9a30</color>
+    <color name="gradient1_c2">#f18726</color>
+    <color name="gradient1_button">#f8b22a</color>
+
+    <color name="gradient2_c1">#aa4f50</color>
+    <color name="gradient2_c2">#fa8435</color>
+
+    <color name="sea_blue">#257f85</color>
+    <color name="yellow_button">#f3a127</color>
+
+    <color name="bold_brown_text">#80614a</color>
+
+    <color name="gray_icon">#808080</color>
+    <color name="gray_line">#c4c4c4</color>
+
+    <color name="answer_bubble_gray">#e0e0e0</color>
+
+
+    A60530
+    <color name="foshya">#A60530</color>
+    <color name="transparent_foshya">#66A60530</color>
+    <color name="transparent_foshya_light">#33A60530</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_black_overlay">#3B000000</color>
+    <color name="black">#E6000000</color>
+    <color name="transparent_white">#B3FFFFFF</color>
+    <color name="background_color">#F2F2F2</color>
+    <color name="post_card_bg">#F5FAFAFA</color>
+    <color name="fab_options">#8F262626</color>
+    <color name="transparent">#00262626</color>
+
+
+
+</resources>

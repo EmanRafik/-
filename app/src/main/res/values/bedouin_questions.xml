@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="q1_text">مما يتكون بيت العرب؟</string>
+    <string name="q1_a1">٢ كم ، ١٤ رمة، ١٤ جازل</string> <!-- correct answer -->
+    <string name="q1_a2">٣ كم ، ١٢ رمة، ١١ جازل</string>
+    <string name="q1_a3">٤ كم ، ٣ رمة، ٧ جازل</string>
+
+    <string name="q2_text">مما يصنع الجازل؟</string>
+    <string name="q2_a1">مثنان</string> <!-- correct answer -->
+    <string name="q2_a2">القطف</string>
+    <string name="q2_a3">الحرمل</string>
+
+    <string name="q3_text">ما هي أشهر الأكلات البدوية؟</string>
+    <string name="q3_a1">المبكبكة</string>
+    <string name="q3_a2">شاورما</string>
+    <string name="q3_a3">الأرز الأحمر و اللحم</string> <!-- correct answer -->
+
+</resources>

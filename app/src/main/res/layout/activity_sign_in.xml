@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sand_dark"
+    tools:context=".Activities.SignInActivity">
+
+    <ImageView
+        android:id="@+id/desertScene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:src="@drawable/desert_scene"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/desertScene"
+        >
+
+        <LinearLayout
+            android:id="@+id/linear_layout_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:src="@drawable/logo_text" />
+
+            <Button
+                android:id="@+id/button_bedouin"
+                style="@style/roundedButton.darkTurmeric"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/roundedButtonHeight"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_bedouin"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/bedouinDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/bedouin_desc" />
+
+            <Button
+                android:id="@+id/button_non_bedouin"
+                style="@style/roundedButton.lightTurmeric"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/roundedButtonHeight"
+                android:layout_marginTop="24dp"
+                android:text="@string/btn_nonbedouin"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/nonBedouinDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/non_bedouin_desc" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

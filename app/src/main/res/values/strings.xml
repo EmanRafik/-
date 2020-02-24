@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Haky shoyyab</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+
+    <!-- ===== Sign in and User Selection Screen =============================================== -->
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="bedouin_auth_alert_title">Authentication</string>
+    <string name="bedouin_auth_alert_message">You will now need to authenticate yourself as a member of the Bedouin community by answering some specific questions.</string>
+
+    <string name="please_choose">Please choose</string>
+    <string name="bedouin_desc">We will need to ask you some questions after this screen linked to your identity as a member of the Bedouin community so you can contribute content and answer questions.</string>
+    <string name="non_bedouin_desc">Non-Bedouin users cannot contribute content to the topics but can engage with the Bedouin to learn about their culture by asking questions.</string>
+    <string name="btn_bedouin">Bedouin user</string>
+    <string name="btn_nonbedouin">Non-Bedouin user</string>
+
+    <!-- ===== Registration Screen ============================================================= -->
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="tribe">Tribe</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="fill_all_fields">All fields are required.</string>
+    <string name="error_mobile_number">Enter a valid mobile number please.</string>
+    <string name="ok">Ok</string>
+    <string name="error_title_failed">Error has occurred in data!</string>
+
+    <!-- ===== Verification code Screen ======================================================== -->
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="verification_code">Verification code</string>
+    <string name="confirm">Confirm</string>
+    <string name="resend">Resend Code</string>
+    <string name="registered_successfully">Registered Successfully</string>
+    <string name="wrong_code">Wrong code entered</string>
+    <string name="enter_verification_code_sent_in_message">Enter verification code sent in a message, please.</string>
+    <string name="dataBase_failure">DataBase Failure!</string>
+
+    <!-- ===== Bedouin questions Screen ======================================================== -->
+    <string name="bedauth_alert_title_failed">Authentication failed</string>
+    <string name="verification_questions_ar">أسئلة للتأكيد</string>
+    <string name="bedauth_alert_message_failed">In order to contribute cultural heritage content to Haky Sheyyab , you must be a member of the Bedouin community. You did not pass the authentication process for this.\nYou will now be logged in to the app as a non-Bedouin user. This means you can ask but not answer questions.</string>
+
+    <!-- ===== Choose specialists Screen ======================================================== -->
+    <string name="vote">Vote</string>
+    <string name="search_user">Search a user...</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="do_you_want_to_vote">Do you want to vote to </string>
+    <string name="to_be_a_specialist_bedouin"> to be a specialist bedouin?</string>
+
+    <!-- ===== Settings Screen ================================================================= -->
+    <string name="confirm_changing_data">Confirm changing data</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- ======= Add Post ==============================================================-->
+    <string name="share_post_btn">Share</string>
+    <string name="add_post_hint">Type your post here...</string>
+    <string name="failed_to_upload_audio">Failed to upload audio</string>
+    <string name="enter_a_post">Enter a post, Please</string>
+    <string name="select_picture">"Select a picture"</string>
+
+    <!-- ===== Menu options ==================================================================== -->
+    <string name="community_option">Community</string>
+    <string name="questions_option">Questions</string>
+    <string name="ask_a_bedouin_option">Ask a bedouin?</string>
+    <string name="choose_specialists_option">Choose specialists</string>
+    <string name="bedouin_heritage_option">Bedouin heritage</string>
+    <string name="settings_option">Settings</string>
+
+    <!-- ===== Question item =================================================================== -->
+    <string name="answers_count_textview">Answers</string>
+    <string name="question_item_show_btn">Show</string>
+
+    <!-- ===== Add a question ================================================================== -->
+    <string name="add_question_title">Add a question</string>
+    <string name="submit_question_btn">Submit</string>
+    <string name="add_question_hint">Type your question here...</string>
+    <string name="enter_a_question">Enter a question, Please</string>
+    <string name="select_a_tag">Select a tag, Please</string>
+
+    <!-- ===== Answer item ===================================================================== -->
+    <string name="answer_upvote">Upvote</string>
+    <string name="answer_downvote">Downvote</string>
+
+    <!-- ===== Add an answer =================================================================== -->
+    <string name="add_answer_title">Add an answer</string>
+    <string name="submit_answer_btn">Submit</string>
+    <string name="add_answer_hint">Type your answer here...</string>
+
+    <!-- ===== Registration Screen ============================================================= -->
+    <string name="comments">Comments</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+
+    <!-- ===== View questions ============================================================= -->
+    <string name="view_questions_title">Bedouin Questions</string>
+    <string name="answers_count_textview_view_question">Answers</string>
+    <string name="view_question_add_hint">Type your answer...</string>
+    <string name="failed_to_upload_image">Failed to upload image</string>
+    <string name="uploaded_successfully">Uploaded successfully</string>
+
+    <!-- ===== Answer item ============================================================= -->
+    <string name="answer_item_votes">Votes</string>
+
+    <!-- ===== fragment ask bedouin ============================================================= -->
+    <string name="view_all_questions">All questions</string>
+    <string name="view_my_questions">My questions</string>
+    <string name="choose_questions_category">Filter by: </string>
+
+    <!-- ===== heritage fragment ============================================================= -->
+    <string name="discover_more_btn">Discover more</string>
+
+    <!-- ===== heritage activity ============================================================= -->
+    <string name="no_info_found">No information was found so far</string>
+
+    <!-- ===== community fragment ============================================================= -->
+    <string name="choose_post_category">Filter by: </string>
+
+    <!-- ===== post item ============================================================= -->
+    <string name="comment_hint">Type your comment here...</string>
+
+    <!-- ===== settinngs screen ============================================================= -->
+    <string name="uploading_image">Uploading image</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="profile_updated_successfully">Profile updated successfully</string>
+
+
+
+</resources>

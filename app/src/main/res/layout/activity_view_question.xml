@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions.ViewQuestionActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/page_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80D9CBA0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:text="@string/view_questions_title"
+                android:textColor="@color/foshya"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/view_question_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:text="abcdef abcdef abcdef abcdef abcdef adef abcdef aef aef abcdef abcef abcdef abef abcd abef abdf adf abcde def abcdef abcdef abcdef abcdef abcdef abcdef abcdef abcdef abcdef abcdef abcdef abcdef abcdef "
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/tag_icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:src="@drawable/tag_icon" />
+
+                    <TextView
+                        android:id="@+id/view_question_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:inputType="number"
+                        android:text="Food"
+                        android:textColor="@color/foshya"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/show_question_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/view_question_num_of_answers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:text="20"
+                        android:textColor="@color/foshya"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/question_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="left"
+                        android:text="@string/answers_count_textview"
+                        android:textColor="@color/foshya"
+                        android:textSize="16dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:rotation="0"
+                        android:src="@drawable/ic_arrow_drop_down_black_24dp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/view_question_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/page_top"
+        android:layout_above="@id/add_answer_layout"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:id="@+id/add_answer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/answer_pic_layout"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <!--image-->
+            <ImageView
+                android:id="@+id/answer_pic"
+                android:layout_width="71dp"
+                android:layout_height="78dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/post_image2"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/delete_answer_pic_btn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_above="@id/answer_pic"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="-35dp"
+                android:layout_marginBottom="-35dp"
+                android:layout_toLeftOf="@id/answer_pic"
+                android:background="@drawable/camera_icon_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_cancel_black_24dp"
+                android:translationZ="1dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_margin="10dp"
+            android:background="@color/post_card_bg">
+
+            <EditText
+                android:id="@+id/answer_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="4.5"
+                android:background="@drawable/edit_text_border"
+                android:backgroundTint="@color/foshya"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/view_question_add_hint"
+                android:inputType="textMultiLine"
+                android:textColor="@color/defaultContentColor"
+                android:textColorHint="@color/black_overlay"
+                android:textCursorDrawable="@color/foshya" />
+
+            <ImageView
+                android:id="@+id/add_answer_pic"
+                android:layout_width="0dp"
+                android:layout_weight="0.75"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_menu_camera" />
+
+            <ImageView
+                android:id="@+id/submit2"
+                android:layout_width="0dp"
+                android:layout_weight="0.75"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_menu_send" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

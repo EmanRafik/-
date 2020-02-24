@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="heritage_categories">
+        <item>الكل</item>
+        <item>أنساب</item>
+        <item>قوانين و أعراف</item>
+        <item>فنون و حرف</item>
+        <item>الطب البدوي</item>
+        <item>ترفيه</item>
+        <item>هوايات</item>
+        <item>ملابس بدوية</item>
+        <item>اللغة و اللهجات</item>
+    </string-array>
+</resources>

@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "343086632508",
+    "firebase_url": "https://badawy-2f478.firebaseio.com",
+    "project_id": "badawy-2f478",
+    "storage_bucket": "badawy-2f478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343086632508:android:afa5254d49818505857d39",
+        "android_client_info": {
+          "package_name": "com.abanoubashraf.badawy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343086632508-jgkoijap92imr1pk28eeseclv7s4ivc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abanoubashraf.badawy",
+            "certificate_hash": "04a0040a53d3aa4e0cbff447d8c40adba6cafbfd"
+          }
+        },
+        {
+          "client_id": "343086632508-ol07sg880heba35bprpp6pd0bj285m0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abanoubashraf.badawy",
+            "certificate_hash": "af0ec61ed3be48bd8144fadf579bc6ee41b1dab6"
+          }
+        },
+        {
+          "client_id": "343086632508-etfvas1g2q5jei3p5ic6u7b00rqphag1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abanoubashraf.badawy",
+            "certificate_hash": "afd484e1c38238721bd208d3d52896257b7e20e0"
+          }
+        },
+        {
+          "client_id": "343086632508-ca6nscdsptoa4b4jukdubk61cfhueq60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abanoubashraf.badawy",
+            "certificate_hash": "5b3b304f680e47cf0f98396d4694251761cf6e98"
+          }
+        },
+        {
+          "client_id": "343086632508-sj8icpoh3ektb9ie6qm8co9qt1rbdac1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvzreX2zL9FpgHeTWj07XY0Dw4mWzoFec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343086632508-sj8icpoh3ektb9ie6qm8co9qt1rbdac1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

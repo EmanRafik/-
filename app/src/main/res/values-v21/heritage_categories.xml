@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="heritage_categories">
+        <item>All</item>
+        <item>Genealogy</item>
+        <item>Laws and customs</item>
+        <item>Arts and crafts</item>
+        <item>Bedouin medicine</item>
+        <item>Entertainment</item>
+        <item>Hobbies</item>
+        <item>Bedouin clothes</item>
+        <item>Language and dialects</item>
+    </string-array>
+</resources>

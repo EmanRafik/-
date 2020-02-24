@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/community_option"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_questions"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="@string/questions_option"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_choose_specialist"
+            android:icon="@drawable/ic_verified_user_black_24dp"
+            android:title="@string/choose_specialists_option"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_ask_a_bedouin"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="@string/ask_a_bedouin_option"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_bedouin_heritage"
+            android:icon="@drawable/ic_heritage_black_24dp"
+            android:title="@string/bedouin_heritage_option"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/settings_option" />
+    </group>
+
+
+</menu>

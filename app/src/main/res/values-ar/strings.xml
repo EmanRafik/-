@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حكي شيّاب</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- ===== Sign in and User Selection Screen =============================================== -->
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="bedouin_auth_alert_title">اثبات الهوية</string>
+    <string name="bedouin_auth_alert_message">عليك ان تثبت انك تنتمي للمجتمع البدوي من خلال الاجابة علي بعض الاسئلة.</string>
+
+    <string name="please_choose">من فضلك اختر</string>
+    <string name="bedouin_desc">عليك ان تجيب علي بعض الاسئلة لأثبات انك تنتمي للمجتمع البدوي حتي تتمكن من اضافة المنشورات و الرد علي الاسئلة.</string>
+    <string name="non_bedouin_desc">المستخدمون الغير بدويون لا يستطيعون اضافة محتوي و لكن يمكنهم تعلم المزيد عن التراث البدوي من خلال الاسئلة.</string>
+    <string name="btn_bedouin">مستخدم بدوي</string>
+    <string name="btn_nonbedouin">مستخدم غير بدوي</string>
+
+    <!-- ===== Registration Screen ============================================================= -->
+    <string name="registration">التسجيل</string>
+    <string name="register">سجل</string>
+    <string name="name">الاسم</string>
+    <string name="tribe">القبيلة</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="already_registered">هل لديك حساب؟</string>
+    <string name="fill_all_fields">يجب ملئ جميع البيانات!!</string>
+    <string name="error_mobile_number">من فضلك ادخل رقم هاتف صحيح!!</string>
+    <string name="ok">تم</string>
+    <string name="error_title_failed">عفوا, حدث خطأ في البينات!!</string>
+
+    <!-- ===== Verification code Screen ======================================================== -->
+    <string name="enter_verification_code">أدخل رمز التحقق</string>
+    <string name="verification_code">رمز التحقق</string>
+    <string name="confirm">تأكيد</string>
+    <string name="resend">ارسل الرمز مجددا</string>
+    <string name="registered_successfully">تم التسجيل بنجاح</string>
+    <string name="wrong_code">عفوا, لقد ادخلت رمزا خاطئا!!</string>
+    <string name="enter_verification_code_sent_in_message">أدخل رمز التحقق المرسل اليك علي الهاتف في رسالة نصية من فضلك.</string>
+    <string name="dataBase_failure">حدث خطأ في قاعدة البيانات!!</string>
+
+    <!-- ===== Bedouin questions Screen ======================================================== -->
+    <string name="bedauth_alert_title_failed">عفوا, لقد فشلت عملية التحقق!!</string>
+    <string name="verification_questions_ar">أسئلة للتأكيد</string>
+    <string name="bedauth_alert_message_failed">عفوا, لقد فشلت عملية التحقق بسبب الاجابات الخاطئة علي الاسئلة سيتم تسجليك كعضو غير بدوي.</string>
+
+    <!-- ===== Choose specialists Screen ======================================================== -->
+    <string name="vote">تصويت</string>
+    <string name="search_user">ابحث عن مستخدم...</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="do_you_want_to_vote">هل تريد التصويت ل </string>
+    <string name="to_be_a_specialist_bedouin"> ليصبح بدوي متخصص؟</string>
+
+    <!-- ===== Settings Screen ======================================================== -->
+    <string name="confirm_changing_data">تأكيد تغيير البيانات</string>
+    <string name="profile_updated_successfully">تم تحديث البيانات بنجاح</string>
+
+    <string name="hello_blank_fragment">أهلا و سهلا</string>
+
+    <!-- ======= Add Post ==============================================================-->
+    <string name="share_post_btn">نشر</string>
+    <string name="add_post_hint">اكتب منشورك هنا...</string>
+
+    <!-- ===== Menu options ==================================================================== -->
+    <string name="community_option">مجتمعنا</string>
+    <string name="questions_option">الاسئلة</string>
+    <string name="ask_a_bedouin_option">اسأل بدوي؟</string>
+    <string name="choose_specialists_option">اختر بدو متخصصين</string>
+    <string name="bedouin_heritage_option">التراث البدوي</string>
+    <string name="settings_option">الإعدادات</string>
+
+    <!-- ===== Question item =================================================================== -->
+    <string name="answers_count_textview">إجابات</string>
+    <string name="question_item_show_btn">عرض</string>
+
+    <!-- ===== Add a question ================================================================== -->
+    <string name="add_question_title">أضف سؤال</string>
+    <string name="submit_question_btn">إضافة</string>
+    <string name="add_question_hint">اكتب سؤالك هنا...</string>
+
+    <!-- ===== View questions ============================================================= -->
+
+    <string name="view_questions_title">اسئلة بدوية</string>
+    <string name="answers_count_textview_view_question">اجابات</string>
+    <string name="view_question_add_hint">اكتب اجابتك هنا...</string>
+
+    <!-- ===== Answer item ===================================================================== -->
+    <string name="answer_upvote">أعجبني</string>
+    <string name="answer_downvote">لم يعجبني</string>
+
+    <!-- ===== Add an answer =================================================================== -->
+    <string name="add_answer_title">اضافة اجابة</string>
+    <string name="submit_answer_btn">اضافة</string>
+    <string name="add_answer_hint">اكتب اجابتك هنا...</string>
+
+    <!-- ===== Registration Screen ============================================================= -->
+    <string name="comments">تعليقات</string>
+    <string name="play">تشغيل</string>
+    <string name="pause">إيقاف</string>
+
+    <!-- ===== Answer item ============================================================= -->
+    <string name="answer_item_votes">اعجاب</string>
+
+    <!-- ===== fragment ask bedouin ============================================================= -->
+    <string name="view_all_questions">جميع الاسئلة</string>
+    <string name="view_my_questions">اسئلتي</string>
+    <string name="choose_questions_category">تصنيف الاسئلة: </string>
+
+    <!-- ===== heritage fragment ============================================================= -->
+    <string name="discover_more_btn">استكشف المزيد</string>
+
+    <!-- ===== community fragment ============================================================= -->
+    <string name="choose_post_category">تصنيف المنشورات: </string>
+
+    <!-- ===== post item ============================================================= -->
+    <string name="comment_hint">اضف تعليقك...</string>
+    <string name="enter_a_post">أدخل المنشور من فضلك</string>
+    <string name="enter_a_question">أدخل السؤال من فضلك</string>
+    <string name="failed_to_upload_audio">فشل تحميل ملف الصوت</string>
+    <string name="failed_to_upload_image">فشل تحميل الصورة</string>
+    <string name="no_image_selected">لم يتم اختيار صورة</string>
+    <string name="select_a_tag">اختر تصنيفا من فضلك</string>
+    <string name="select_picture">اختر صورة من فضلك</string>
+    <string name="uploaded_successfully">تم رفع الصورة بنجاح</string>
+    <string name="uploading_image">جار رفع الصورة</string>
+
+    <!-- ===== heritage activity ============================================================= -->
+    <string name="no_info_found">لا توجد معلومات الآن</string>
+
+</resources>
